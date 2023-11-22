@@ -1,0 +1,22 @@
+#list {
+	list-style: none;
+	padding: 0;
+}
+
+#list li {
+	display: flex;
+	gap: 10px;
+}
+
+#list .remove, #list .mark {
+	color: blue;
+	cursor: pointer;
+}
+
+#list .remove:hover, #list .mark:hover {
+	text-decoration: underline;
+}
+
+#list .done {
+	text-decoration: line-through;
+}
